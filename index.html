@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aura Smile Studio — Clínica dental estética de alto nivel en Buenos Aires. Diseño de sonrisa, carillas, blanqueamiento y rehabilitación estética." />
+  <meta name="keywords" content="clínica dental estética, diseño de sonrisa, carillas dentales, blanqueamiento dental, Buenos Aires" />
+  <meta name="author" content="Aura Smile Studio" />
+  <meta property="og:title" content="Aura Smile Studio — Estética Dental Premium" />
+  <meta property="og:description" content="Redefinimos tu sonrisa con estética de alto nivel." />
+  <meta property="og:type" content="website" />
+  <title>Aura Smile Studio — Estética Dental Premium</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Skip link accesibilidad -->
+  <a href="#main" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Aura Smile Studio - Inicio">
+        <span class="brand-symbol">✦</span>
+        <span class="brand-text">AURA<em>smile</em></span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="gallery.html">Galería</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn-gold header-cta">Reservar</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-label="Hero principal">
+      <div class="hero-bg">
+        <div class="hero-orb hero-orb--1"></div>
+        <div class="hero-orb hero-orb--2"></div>
+        <div class="hero-grid"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-text animate-up">
+          <p class="hero-eyebrow">Estética Dental de Élite</p>
+          <h1 class="hero-title">Redefinimos tu<br /><em>sonrisa</em> con<br />estética de alto nivel</h1>
+          <p class="hero-sub">Cada detalle importa. Cada sonrisa es una obra de arte.<br />Bienvenido al estudio donde la ciencia y la elegancia se fusionan.</p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-gold">Reservar Consulta Premium</a>
+            <a href="gallery.html" class="btn btn-outline">Ver Resultados</a>
+          </div>
+        </div>
+        <div class="hero-stats-standalone animate-fade">
+          <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Sonrisas transformadas</span></div>
+          <div class="stat"><span class="stat-num">12</span><span class="stat-label">Años de excelencia</span></div>
+          <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Satisfacción</span></div>
+        </div>
+        <div class="hero-visual-old animate-fade" style="display:none">
+          <div class="hero-card">
+            <svg viewBox="0 0 320 380" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <radialGradient id="heroGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#c9a96e" stop-opacity="0.18"/>
+                  <stop offset="100%" stop-color="#c9a96e" stop-opacity="0"/>
+                </radialGradient>
+                <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#c9a96e" stop-opacity="0"/>
+                  <stop offset="50%" stop-color="#f0d080" stop-opacity="0.9"/>
+                  <stop offset="100%" stop-color="#c9a96e" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="goldLineV" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#c9a96e" stop-opacity="0"/>
+                  <stop offset="50%" stop-color="#c9a96e" stop-opacity="0.6"/>
+                  <stop offset="100%" stop-color="#c9a96e" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+
+              <!-- Glow central -->
+              <ellipse cx="160" cy="190" rx="140" ry="160" fill="url(#heroGlow)"/>
+
+              <!-- Outer rings -->
+              <circle cx="160" cy="190" r="130" fill="none" stroke="#c9a96e" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="4 8"/>
+              <circle cx="160" cy="190" r="105" fill="none" stroke="#c9a96e" stroke-width="0.3" stroke-opacity="0.15"/>
+              <circle cx="160" cy="190" r="78" fill="none" stroke="#c9a96e" stroke-width="0.5" stroke-opacity="0.25"/>
+
+              <!-- Cross lines -->
+              <line x1="160" y1="60" x2="160" y2="320" stroke="url(#goldLineV)" stroke-width="0.5"/>
+              <line x1="30" y1="190" x2="290" y2="190" stroke="url(#goldLine)" stroke-width="0.5"/>
+
+              <!-- Diamond center -->
+              <polygon points="160,140 195,190 160,240 125,190"
+                fill="none" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.6"/>
+              <polygon points="160,155 182,190 160,225 138,190"
+                fill="rgba(201,169,110,0.05)" stroke="#c9a96e" stroke-width="0.5" stroke-opacity="0.4"/>
+
+              <!-- Teeth arc — elegante, no cara -->
+              <path d="M127 190 Q160 210 193 190" fill="none" stroke="#c9a96e" stroke-width="1.5" stroke-opacity="0.5" stroke-linecap="round"/>
+              <rect x="136" y="191" width="48" height="13" rx="2" fill="white" fill-opacity="0.85"/>
+              <line x1="148" y1="191" x2="148" y2="204" stroke="#c9a96e" stroke-width="0.5" stroke-opacity="0.35"/>
+              <line x1="160" y1="191" x2="160" y2="204" stroke="#c9a96e" stroke-width="0.5" stroke-opacity="0.35"/>
+              <line x1="172" y1="191" x2="172" y2="204" stroke="#c9a96e" stroke-width="0.5" stroke-opacity="0.35"/>
+
+              <!-- Corner marks -->
+              <path d="M55 85 L55 65 L75 65" fill="none" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.5"/>
+              <path d="M265 85 L265 65 L245 65" fill="none" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.5"/>
+              <path d="M55 295 L55 315 L75 315" fill="none" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.5"/>
+              <path d="M265 295 L265 315 L245 315" fill="none" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.5"/>
+
+              <!-- Dot accents -->
+              <circle cx="160" cy="130" r="3" fill="#c9a96e" fill-opacity="0.7"/>
+              <circle cx="160" cy="250" r="2" fill="#c9a96e" fill-opacity="0.4"/>
+              <circle cx="100" cy="190" r="2" fill="#c9a96e" fill-opacity="0.4"/>
+              <circle cx="220" cy="190" r="2" fill="#c9a96e" fill-opacity="0.4"/>
+              <circle cx="60" cy="100" r="1.5" fill="#c9a96e" fill-opacity="0.3"/>
+              <circle cx="260" cy="280" r="1.5" fill="#c9a96e" fill-opacity="0.3"/>
+
+              <!-- Label -->
+              <text x="160" y="348" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="8" fill="#c9a96e" fill-opacity="0.45" letter-spacing="5">PREMIUM AESTHETICS</text>
+            </svg>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Sonrisas transformadas</span></div>
+            <div class="stat"><span class="stat-num">12</span><span class="stat-label">Años de excelencia</span></div>
+            <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Satisfacción</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Descubrir</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICIOS PREMIUM ===== -->
+    <section class="section services-section" id="servicios" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-header animate-up">
+          <p class="section-eyebrow">Nuestros Tratamientos</p>
+          <h2 id="services-title" class="section-title">Servicios <em>Premium</em></h2>
+          <p class="section-sub">Cada tratamiento es diseñado a medida, con materiales de la más alta calidad y técnicas de vanguardia internacional.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card animate-up" style="--delay:0.1s">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="20" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.3"/>
+                <path d="M14 26 Q24 36 34 26 Q34 18 24 16 Q14 18 14 26Z" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
+                <path d="M19 26 L29 26" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.6"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Diseño de Sonrisa</h3>
+            <p class="service-card__desc">Análisis facial completo y planificación digital para crear la sonrisa perfecta que armonice con tus rasgos únicos.</p>
+            <a href="services.html#diseno" class="service-card__link">Explorar <span>→</span></a>
+          </article>
+          <article class="service-card service-card--featured animate-up" style="--delay:0.2s">
+            <div class="service-card__badge">Más solicitado</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="20" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.3"/>
+                <rect x="14" y="20" width="20" height="12" rx="3" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
+                <line x1="19" y1="20" x2="19" y2="32" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.6"/>
+                <line x1="24" y1="20" x2="24" y2="32" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.6"/>
+                <line x1="29" y1="20" x2="29" y2="32" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.6"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Carillas Dentales</h3>
+            <p class="service-card__desc">Láminas de porcelana ultrafina que transforman color, forma y tamaño de tus dientes con resultados naturales e impactantes.</p>
+            <a href="services.html#carillas" class="service-card__link">Explorar <span>→</span></a>
+          </article>
+          <article class="service-card animate-up" style="--delay:0.3s">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="20" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.3"/>
+                <circle cx="24" cy="24" r="8" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
+                <line x1="24" y1="10" x2="24" y2="14" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="24" y1="34" x2="24" y2="38" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="10" y1="24" x2="14" y2="24" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="34" y1="24" x2="38" y2="24" stroke="#c9a96e" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Blanqueamiento Avanzado</h3>
+            <p class="service-card__desc">Tecnología de última generación con láser de diodo para resultados hasta 12 tonos más blancos en una sola sesión.</p>
+            <a href="services.html#blanqueamiento" class="service-card__link">Explorar <span>→</span></a>
+          </article>
+          <article class="service-card animate-up" style="--delay:0.4s">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="20" stroke="#c9a96e" stroke-width="1" stroke-opacity="0.3"/>
+                <path d="M16 30 L16 22 Q16 16 24 16 Q32 16 32 22 L32 30" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
+                <rect x="13" y="28" width="22" height="6" rx="2" stroke="#c9a96e" stroke-width="1.5" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Rehabilitación Estética</h3>
+            <p class="service-card__desc">Restauración completa de tu sonrisa mediante implantes, coronas de zirconio y prótesis de alta estética personalizadas.</p>
+            <a href="services.html#rehabilitacion" class="service-card__link">Explorar <span>→</span></a>
+          </article>
+        </div>
+        <div class="services-cta animate-up">
+          <a href="services.html" class="btn btn-outline">Ver todos los tratamientos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERÍA PREVIEW ===== -->
+    <section class="section gallery-preview" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-header animate-up">
+          <p class="section-eyebrow">Resultados Reales</p>
+          <h2 id="gallery-title" class="section-title">Transformaciones <em>extraordinarias</em></h2>
+        </div>
+        <div class="before-after-grid">
+          <div class="ba-card animate-up" style="--delay:0.1s">
+            <div class="ba-panels">
+              <div class="ba-panel ba-before">
+                <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="200" height="140" fill="#1a1a1a"/>
+                  <path d="M70 90 Q100 105 130 90" fill="none" stroke="#666" stroke-width="2"/>
+                  <rect x="78" y="91" width="44" height="12" rx="2" fill="#c8b59a" fill-opacity="0.7"/>
+                  <line x1="89" y1="91" x2="89" y2="103" stroke="#555" stroke-width="0.5"/>
+                  <line x1="100" y1="91" x2="100" y2="103" stroke="#555" stroke-width="0.5"/>
+                  <line x1="111" y1="91" x2="111" y2="103" stroke="#555" stroke-width="0.5"/>
+                  <text x="100" y="130" text-anchor="middle" font-size="8" fill="#666" font-family="sans-serif">ANTES</text>
+                </svg>
+              </div>
+              <div class="ba-divider" aria-hidden="true"><span>↔</span></div>
+              <div class="ba-panel ba-after">
+                <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="200" height="140" fill="#0d0d0d"/>
+                  <path d="M70 90 Q100 108 130 90" fill="none" stroke="#c9a96e" stroke-width="2"/>
+                  <rect x="78" y="91" width="44" height="12" rx="2" fill="white" fill-opacity="0.95"/>
+                  <line x1="89" y1="91" x2="89" y2="103" stroke="#e0e0e0" stroke-width="0.5"/>
+                  <line x1="100" y1="91" x2="100" y2="103" stroke="#e0e0e0" stroke-width="0.5"/>
+                  <line x1="111" y1="91" x2="111" y2="103" stroke="#e0e0e0" stroke-width="0.5"/>
+                  <text x="100" y="130" text-anchor="middle" font-size="8" fill="#c9a96e" font-family="sans-serif">DESPUÉS</text>
+                </svg>
+              </div>
+            </div>
+            <p class="ba-label">Carillas de Porcelana</p>
+          </div>
+          <div class="ba-card animate-up" style="--delay:0.2s">
+            <div class="ba-panels">
+              <div class="ba-panel ba-before">
+                <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="200" height="140" fill="#1a1a1a"/>
+                  <path d="M72 92 Q100 104 128 92" fill="none" stroke="#666" stroke-width="2"/>
+                  <rect x="79" y="92" width="42" height="11" rx="2" fill="#d4c5a9" fill-opacity="0.6"/>
+                  <text x="100" y="130" text-anchor="middle" font-size="8" fill="#666" font-family="sans-serif">ANTES</text>
+                </svg>
+              </div>
+              <div class="ba-divider" aria-hidden="true"><span>↔</span></div>
+              <div class="ba-panel ba-after">
+                <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="200" height="140" fill="#0d0d0d"/>
+                  <path d="M72 92 Q100 106 128 92" fill="none" stroke="#c9a96e" stroke-width="2"/>
+                  <rect x="79" y="92" width="42" height="11" rx="2" fill="white" fill-opacity="0.97"/>
+                  <text x="100" y="130" text-anchor="middle" font-size="8" fill="#c9a96e" font-family="sans-serif">DESPUÉS</text>
+                </svg>
+              </div>
+            </div>
+            <p class="ba-label">Blanqueamiento Avanzado</p>
+          </div>
+          <div class="ba-card animate-up" style="--delay:0.3s">
+            <div class="ba-panels">
+              <div class="ba-panel ba-before">
+                <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="200" height="140" fill="#1a1a1a"/>
+                  <path d="M68 94 Q100 106 132 94" fill="none" stroke="#555" stroke-width="2"/>
+                  <rect x="76" y="94" width="48" height="10" rx="1" fill="#bba98a" fill-opacity="0.5"/>
+                  <text x="100" y="130" text-anchor="middle" font-size="8" fill="#666" font-family="sans-serif">ANTES</text>
+                </svg>
+              </div>
+              <div class="ba-divider" aria-hidden="true"><span>↔</span></div>
+              <div class="ba-panel ba-after">
+                <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect width="200" height="140" fill="#0d0d0d"/>
+                  <path d="M68 94 Q100 110 132 94" fill="none" stroke="#c9a96e" stroke-width="2.5"/>
+                  <rect x="76" y="94" width="48" height="10" rx="1" fill="white" fill-opacity="0.98"/>
+                  <text x="100" y="130" text-anchor="middle" font-size="8" fill="#c9a96e" font-family="sans-serif">DESPUÉS</text>
+                </svg>
+              </div>
+            </div>
+            <p class="ba-label">Diseño de Sonrisa Completo</p>
+          </div>
+        </div>
+        <div class="animate-up" style="text-align:center;margin-top:3rem">
+          <a href="gallery.html" class="btn btn-gold">Ver galería completa</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AUTORIDAD ===== -->
+    <section class="section authority-section" aria-labelledby="authority-title">
+      <div class="container authority-grid">
+        <div class="authority-text animate-up">
+          <p class="section-eyebrow">Por qué elegirnos</p>
+          <h2 id="authority-title" class="section-title">La excelencia<br />como <em>estándar</em></h2>
+          <p class="authority-desc">Somos el estudio de referencia en estética dental de élite. Nuestro equipo combina formación internacional con una visión artística única para cada paciente.</p>
+          <ul class="authority-list">
+            <li><span class="auth-icon" aria-hidden="true">✦</span> Miembros de la Academia Americana de Estética Dental</li>
+            <li><span class="auth-icon" aria-hidden="true">✦</span> Tecnología CAD/CAM y scanner intraoral 3D</li>
+            <li><span class="auth-icon" aria-hidden="true">✦</span> Materiales importados de clase mundial</li>
+            <li><span class="auth-icon" aria-hidden="true">✦</span> Diseño digital de sonrisa (DSD) en cada caso</li>
+            <li><span class="auth-icon" aria-hidden="true">✦</span> Atención personalizada y confidencial</li>
+          </ul>
+        </div>
+        <div class="authority-team animate-fade">
+          <div class="team-preview-grid">
+            <div class="team-prev-card">
+              <div class="team-prev-avatar">
+                <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="40" cy="40" r="38" fill="#1a1a1a" stroke="#c9a96e" stroke-width="0.8" stroke-opacity="0.5"/>
+                  <circle cx="40" cy="40" r="30" fill="none" stroke="#c9a96e" stroke-width="0.3" stroke-opacity="0.2" stroke-dasharray="3 6"/>
+                  <text x="40" y="46" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="22" font-weight="300" fill="#c9a96e" fill-opacity="0.85">VR</text>
+                </svg>
+              </div>
+              <p class="team-prev-name">Dra. Valentina Rosse</p>
+              <p class="team-prev-role">Directora & Estética Dental</p>
+            </div>
+            <div class="team-prev-card">
+              <div class="team-prev-avatar">
+                <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="40" cy="40" r="38" fill="#1a1a1a" stroke="#c9a96e" stroke-width="0.8" stroke-opacity="0.5"/>
+                  <circle cx="40" cy="40" r="30" fill="none" stroke="#c9a96e" stroke-width="0.3" stroke-opacity="0.2" stroke-dasharray="3 6"/>
+                  <text x="40" y="46" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="22" font-weight="300" fill="#c9a96e" fill-opacity="0.85">MV</text>
+                </svg>
+              </div>
+              <p class="team-prev-name">Dr. Marcos Vidal</p>
+              <p class="team-prev-role">Implantología & Cirugía</p>
+            </div>
+            <div class="team-prev-card">
+              <div class="team-prev-avatar">
+                <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <circle cx="40" cy="40" r="38" fill="#1a1a1a" stroke="#c9a96e" stroke-width="0.8" stroke-opacity="0.5"/>
+                  <circle cx="40" cy="40" r="30" fill="none" stroke="#c9a96e" stroke-width="0.3" stroke-opacity="0.2" stroke-dasharray="3 6"/>
+                  <text x="40" y="46" text-anchor="middle" font-family="Cormorant Garamond, serif" font-size="22" font-weight="300" fill="#c9a96e" fill-opacity="0.85">IK</text>
+                </svg>
+              </div>
+              <p class="team-prev-name">Dra. Isabel Korn</p>
+              <p class="team-prev-role">Carillas & Ortodoncia</p>
+            </div>
+          </div>
+          <a href="about.html" class="btn btn-outline" style="margin-top:2rem">Conocer el equipo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIOS ===== -->
+    <section class="section testimonials-section" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-header animate-up">
+          <p class="section-eyebrow">Experiencias</p>
+          <h2 id="testimonials-title" class="section-title">Lo que dicen<br />nuestros <em>pacientes</em></h2>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card animate-up" style="--delay:0.1s">
+            <div class="testimonial-stars" aria-label="5 estrellas">✦ ✦ ✦ ✦ ✦</div>
+            <p class="testimonial-text">"Fui con miedo y salí con una sonrisa que nunca imaginé tener. La Dra. Rosse transformó mi vida. El nivel de detalle y cuidado es incomparable, nada que ver con otras clínicas."</p>
+            <footer class="testimonial-author">
+              <div class="testimonial-avatar" aria-hidden="true">MG</div>
+              <div>
+                <cite class="testimonial-name">Marcela G.</cite>
+                <p class="testimonial-treatment">Diseño de Sonrisa + Carillas</p>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card testimonial-card--featured animate-up" style="--delay:0.2s">
+            <div class="testimonial-stars" aria-label="5 estrellas">✦ ✦ ✦ ✦ ✦</div>
+            <p class="testimonial-text">"Como empresario, cuido cada detalle de mi imagen. Aura Smile Studio entiende exactamente eso. Resultados naturales, elegantes y de primer nivel mundial. Mi mejor inversión del año."</p>
+            <footer class="testimonial-author">
+              <div class="testimonial-avatar" aria-hidden="true">RL</div>
+              <div>
+                <cite class="testimonial-name">Rodrigo L.</cite>
+                <p class="testimonial-treatment">Carillas de Porcelana</p>
+              </div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card animate-up" style="--delay:0.3s">
+            <div class="testimonial-stars" aria-label="5 estrellas">✦ ✦ ✦ ✦ ✦</div>
+            <p class="testimonial-text">"El ambiente del estudio ya te transmite exclusividad desde que entrás. Los resultados del blanqueamiento superaron todas mis expectativas. Altamente recomendado para quienes valoran lo premium."</p>
+            <footer class="testimonial-author">
+              <div class="testimonial-avatar" aria-hidden="true">SC</div>
+              <div>
+                <cite class="testimonial-name">Sofía C.</cite>
+                <p class="testimonial-treatment">Blanqueamiento Avanzado</p>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="section cta-section" aria-labelledby="cta-title">
+      <div class="cta-bg" aria-hidden="true">
+        <div class="cta-line cta-line--1"></div>
+        <div class="cta-line cta-line--2"></div>
+      </div>
+      <div class="container cta-content animate-up">
+        <p class="section-eyebrow">El primer paso</p>
+        <h2 id="cta-title" class="cta-title">Tu sonrisa perfecta<br />comienza <em>hoy</em></h2>
+        <p class="cta-sub">Agendá tu consulta de diagnóstico sin cargo y descubrí las posibilidades de tu transformación.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-gold btn-lg">Reservar Consulta Premium</a>
+          <a href="https://wa.me/5491100000000" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="Aura Smile Studio">
+          <span class="brand-symbol">✦</span>
+          <span class="brand-text">AURA<em>smile</em></span>
+        </a>
+        <p class="footer-tagline">Estética dental de élite.<br />Donde la ciencia se convierte en arte.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Navegación footer">
+        <h3 class="footer-nav-title">Navegación</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="gallery.html">Galería</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="footer-services">
+        <h3 class="footer-nav-title">Tratamientos</h3>
+        <ul>
+          <li><a href="services.html#diseno">Diseño de Sonrisa</a></li>
+          <li><a href="services.html#carillas">Carillas Dentales</a></li>
+          <li><a href="services.html#blanqueamiento">Blanqueamiento</a></li>
+          <li><a href="services.html#rehabilitacion">Rehabilitación</a></li>
+          <li><a href="services.html#ortodoncia">Ortodoncia Invisible</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3 class="footer-nav-title">Contacto</h3>
+        <address>
+          <p>✦ Av. Álvear 1620, Piso 4<br />Recoleta, Buenos Aires</p>
+          <p>✦ <a href="tel:+541148000000">(011) 4800-0000</a></p>
+          <p>✦ <a href="mailto:hola@aurasmile.com.ar">hola@aurasmile.com.ar</a></p>
+        </address>
+        <div class="footer-hours">
+          <p>Lun — Vie: 9:00 — 20:00</p>
+          <p>Sáb: 9:00 — 14:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="currentYear"></span> Aura Smile Studio. Todos los derechos reservados.</p>
+        <p class="footer-legal">Sitio ficticio creado con fines de portafolio.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
